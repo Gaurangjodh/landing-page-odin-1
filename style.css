@@ -101,3 +101,27 @@ a{
     font-size: 18px;
     color: #5c5c5c;
 }
+
+.main-box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 100vh;
+}
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+.author{
+    align-self: flex-end;
+    font-weight: 800;
+    font-size: 18px;
+}
