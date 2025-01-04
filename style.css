@@ -125,3 +125,40 @@ a{
     font-weight: 800;
     font-size: 18px;
 }
+
+.main-box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.CTA-box{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 6px;
+    height: 100px;
+    align-items: center;
+    padding: 0 46px;
+}
+.CTA-text{
+    color: white;
+}
+.CTA-text>h4{
+    font-size: 18px;
+    font-weight: 900;
+}
+.CTA-text>p{
+    font-size: 16px;
+    color: #ede8e8;
+}
+.CTA-btn>button{
+    border: 1px solid white;
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
