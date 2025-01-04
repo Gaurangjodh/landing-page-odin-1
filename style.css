@@ -68,3 +68,36 @@ a{
     border-radius: 5px;
     cursor: pointer;
 }
+
+.main-box2{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+.main-box2>h2{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-top: 30px;
+}
+.boxes-container{
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+}
+.box{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    gap: 10px;
+}
+.box-box{
+    border: 3px solid #3882f6;
+    width: 180px;
+    height: 200px;
+}
+.box-text{
+    font-size: 18px;
+    color: #5c5c5c;
+}
